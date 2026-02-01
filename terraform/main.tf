@@ -15,6 +15,6 @@ resource "aws_instance" "EC2-SRVR" {
   EOF
 
   tags = {
-    Name = "Web-Server"
+    Name = "server"
   }
 }

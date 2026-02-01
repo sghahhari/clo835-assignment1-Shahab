@@ -8,6 +8,5 @@ last_name VARCHAR(20),
 primary_skill VARCHAR(20),
 location VARCHAR(20));
 
-INSERT INTO employee (first_name, last_name, primary_skill, location) VALUES ('Amanda','Williams','Smile','local'), 
-('Alan','Williams','Empathy','Oshawa'), ('Shahab','Ghahari','System Engineer','North York');
+INSERT INTO employee (first_name, last_name, primary_skill, location) VALUES ('Alan','Williams','Empathy','Oshawa'), ('Shahab','Ghahari','System Engineer','North York');
 SELECT * FROM employee;

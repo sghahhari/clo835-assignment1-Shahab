@@ -1,5 +1,5 @@
 resource "aws_ecr_repository" "app_repo" {
-  name                 = "app"
+  name                 = "myapp"
   image_tag_mutability = "MUTABLE"
 
   image_scanning_configuration {
@@ -12,7 +12,7 @@ resource "aws_ecr_repository" "app_repo" {
 }
 
 resource "aws_ecr_repository" "mysql_repo" {
-  name                 = "db"
+  name                 = "mydb"
   image_tag_mutability = "MUTABLE"
 
   image_scanning_configuration {
