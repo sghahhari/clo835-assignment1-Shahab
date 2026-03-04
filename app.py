@@ -26,6 +26,7 @@ db_conn = connections.Connection(
 output = {}
 table = 'employee';
 
+
 # Define the supported color codes
 color_codes = {
     "red": "#e74c3c",

@@ -1,5 +1,5 @@
 resource "aws_instance" "EC2-SRVR" {
-  ami                    = "ami-0f3caa1cf4417e51b" # Amazon Linux 2 us-east-1
+  ami                    = "ami-0f3caa1cf4417e51b" # Amazon Linux 2023 Stronger EC2
   instance_type          = "t2.medium"
   subnet_id              = data.aws_subnets.default.ids[0]  # First default subnet
   vpc_security_group_ids = [aws_security_group.ec2_sg.id]
